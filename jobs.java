@@ -6,12 +6,12 @@
  * Written 12-11-2019
  * Written by fagier Alsadig & Mohamed Abshanab
  */
-package javaapplication13;
 //import java Scanner Libarary
+
 import java.util.Scanner;
 //Tokenizer :use to cut String into small pices
 import java.util.StringTokenizer;
-public class JavaApplication13 {
+public class jobs{
     //Main Method
     public static void main(String[] args) {
 
@@ -35,7 +35,7 @@ public class JavaApplication13 {
         while(true)
                     {
 
-             System.out.println("Chose your login type \n 1 for admin \n 2 for user \n 3 for exit");
+             System.out.println("Chose your login type \n 1 for admin \n 2 for user \n 3 about program \n 4 for exit");
         int type=scan.nextInt();
 
 
@@ -119,7 +119,10 @@ public class JavaApplication13 {
                 else
                  System.out.println("Wrong user or pass");
                              break;
-       case(3):
+             case(3):
+             System.out.println("This program helps you to find the job thats fitts you");
+                             break;
+       case(4):
                System.exit(0);
         }
 
